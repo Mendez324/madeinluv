@@ -1,0 +1,19 @@
+.c-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: url('../img/welcome1.jpeg') center;
+    background-size: cover;
+   
+
+    &__title {
+        font-family: $primary-font;
+        font-size: 50px;
+
+    }
+
+
+
+}
