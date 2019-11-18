@@ -8,15 +8,18 @@
     background-size: cover;
     font-family: $primary-font;
    
+   
 
     &__container {
         align-items: center;
         justify-content: center;
         text-align: center;
+       
     }
 
     &__title {
         font-size: 90px;
+        font-weight: 100;
         color: rgb(245, 236, 212);
     }
 

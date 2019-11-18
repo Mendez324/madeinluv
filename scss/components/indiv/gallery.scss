@@ -1,0 +1,26 @@
+.c-gallery {
+    width: 100%;
+    margin-top: 20px;
+    background: black;
+
+    &__space-list {
+        background: white;
+        display: flex;
+        justify-content: center;
+
+        
+    }
+
+    &__list-item {
+        display: inline-block;
+        height: 200px;
+        width: 20%;
+        margin: 0 20px;
+        border-radius: 10px;
+    }
+
+    &__list-img {
+        width: 100%;
+    }
+
+}

@@ -82,7 +82,47 @@ html, body {
     text-align: center; }
   .c-intro__title {
     font-size: 90px;
+    font-weight: 100;
     color: #f5ecd4; }
   .c-intro__sub {
     font-size: 50px;
     color: #f5ecd4; }
+
+.c-header {
+  height: 45px;
+  width: 100%;
+  background: black;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .c-header__img-container {
+    height: 100%; }
+  .c-header__img-logo {
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 45px; }
+
+.c-gallery {
+  width: 100%;
+  margin-top: 20px;
+  background: black; }
+  .c-gallery__space-list {
+    background: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .c-gallery__list-item {
+    display: inline-block;
+    height: 200px;
+    width: 20%;
+    margin: 0 20px;
+    border-radius: 10px; }
+  .c-gallery__list-img {
+    width: 100%; }
