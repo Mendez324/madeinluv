@@ -1,26 +1,17 @@
 {
   "name": "madeinluv",
   "version": "1.0.0",
-  "description": "site for a friends tea house",
-  "main": "gulpfile.js",
+  "description": "Tea house site",
+  "main": "index.js",
   "dependencies": {
     "del": "^5.1.0",
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-jshint": "^2.1.0",
-    "gulp-minify-css": "^1.2.4",
-    "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify": "^3.0.2",
-    "gulp-util": "^3.0.8",
-    "gulp-watch": "^5.0.1",
-    "gulp-wrapper": "^1.0.0",
-    "jshint": "^2.10.3",
-    "node-sass": "^4.13.0"
+    "gulp-sass": "^4.0.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-watch": "^5.0.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

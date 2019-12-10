@@ -1,0 +1,41 @@
+.c-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: rgb(250, 219, 178);
+    font-family: $primary-font;
+   
+   
+   &__container {
+        width: 100vw;
+        height: 100%;
+        padding: 60px;
+        background: url('../img/ales-krivec-QnNqGoCnBg0-unsplash.jpg') center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }
+
+    &__wrapper-titles {
+        animation: opening 3s;
+        width: 50%;
+    }
+
+    &__title {
+        font-size: 120px;
+        font-weight: 100;
+    }
+
+    &__sub {
+        padding-top: 10px;
+        font-size: 40px;
+    }
+
+
+
+}
