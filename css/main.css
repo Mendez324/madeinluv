@@ -179,20 +179,21 @@ html, body {
     padding-bottom: 5px;
     overflow: hidden; }
   .c-gallery__list-img {
-    width: 100%; }
+    width: 100%;
+    overflow: hidden; }
     .c-gallery__list-img:hover {
-      -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-      transform: scale(1.1);
-      -webkit-transition: -webkit-transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-      transition: -webkit-transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-      -o-transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-      transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-      transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95), -webkit-transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95); }
+      -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      transform: scale(1.05);
+      -webkit-transition: -webkit-transform 3s;
+      transition: -webkit-transform 3s;
+      -o-transition: transform 3s;
+      transition: transform 3s;
+      transition: transform 3s, -webkit-transform 3s; }
   .c-gallery__item-title {
     color: black;
     font-family: "Lobster", cursive;
-    font-size: 26px;
+    font-size: 20px;
     padding-bottom: 15px; }
   .c-gallery__list-item-text {
     height: 30%;
@@ -204,4 +205,37 @@ html, body {
 .c-footer {
   width: 100%;
   background: black;
-  height: 15%; }
+  height: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .c-footer__foot-image-container {
+    height: 100%;
+    width: 25%; }
+  .c-footer__foot-image {
+    padding-left: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%; }
+  .c-footer__image {
+    width: 50%; }
+  .c-footer__contact-list {
+    width: 30%;
+    color: white;
+    font-family: "Comfortaa", cursive;
+    font-size: 14px; }
+  .c-footer__contact-list-item {
+    padding: 10px;
+    font-weight: 100; }
+  .c-footer__contact-title {
+    font-size: 13px; }
+  .c-footer__contact-number {
+    font-size: 11px;
+    margin: 6px 0; }

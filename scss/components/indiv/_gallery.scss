@@ -45,16 +45,17 @@
 
     &__list-img {
         width: 100%;
-        &:hover{
-            transform: scale(1.1);
-            transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-        }
+        overflow: hidden;
+        // &:hover{
+        //     transform: scale(1.05);
+        //     transition: transform 3s;
+        // }
     }
 
     &__item-title {
         color: black;
         font-family: $primary-font;
-        font-size: 26px;
+        font-size: 20px;
         padding-bottom: 15px;
     }
 

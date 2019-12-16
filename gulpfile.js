@@ -4,6 +4,10 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var sassGlob = require('gulp-sass-glob');
 var watch = require('gulp-watch');
+
+ gulp.task("default", ()=>{
+    gulp.task("styles","watch")
+ })
  
 gulp.task('styles', function () {
     return gulp
