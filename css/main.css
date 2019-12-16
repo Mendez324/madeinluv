@@ -1,3 +1,6 @@
+body {
+  background-color: whitesmoke; }
+
 @-webkit-keyframes opening {
   0% {
     opacity: 0; }
@@ -93,8 +96,7 @@ html, body {
   justify-content: center;
   height: 100vh;
   width: 100%;
-  background: #fadbb2;
-  font-family: "Lobster", cursive; }
+  font-family: "Dancing Script", cursive; }
   .c-intro__container {
     width: 100vw;
     height: 100%;
@@ -127,13 +129,13 @@ html, body {
   height: 45px;
   width: 100%;
   background: black;
-  position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+  z-index: 10; }
   .c-header__img-container {
     height: 100%; }
   .c-header__img-logo {
@@ -143,19 +145,18 @@ html, body {
 
 .c-gallery {
   width: 100%;
-  height: 100vh;
-  background: #fadbb2;
+  height: 900px;
   padding: 40px; }
   .c-gallery__title-container {
     width: 40%;
     text-align: center;
-    font-family: "Lobster", cursive;
-    border-radius: 20px;
+    font-family: "Dancing Script", cursive;
     margin: 0 auto;
     padding: 10px; }
   .c-gallery__gallery-title {
     font-size: 64px;
-    padding: 20px; }
+    padding: 20px;
+    color: #a8520b; }
   .c-gallery__space-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -171,9 +172,9 @@ html, body {
     height: 70%;
     width: 15%;
     overflow: hidden;
-    border-radius: 20px;
     -webkit-box-shadow: 0 0 1em;
-    box-shadow: 0 0 1em; }
+    box-shadow: 0 0 1em;
+    border-radius: 10px; }
   .c-gallery__list-img-container {
     height: 70%;
     padding-bottom: 5px;
@@ -181,26 +182,75 @@ html, body {
   .c-gallery__list-img {
     width: 100%;
     overflow: hidden; }
-    .c-gallery__list-img:hover {
-      -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-      transform: scale(1.05);
-      -webkit-transition: -webkit-transform 3s;
-      transition: -webkit-transform 3s;
-      -o-transition: transform 3s;
-      transition: transform 3s;
-      transition: transform 3s, -webkit-transform 3s; }
   .c-gallery__item-title {
     color: black;
-    font-family: "Lobster", cursive;
-    font-size: 20px;
-    padding-bottom: 15px; }
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-size: 22px;
+    padding-bottom: 5px; }
   .c-gallery__list-item-text {
     height: 30%;
-    padding: 10px;
+    padding: 5px 10px 10px 10px;
     font-size: 14px; }
   .c-gallery__card-text {
+    text-align: center;
     font-family: "Comfortaa", cursive; }
+
+.c-about {
+  width: 100%;
+  height: 900px; }
+  .c-about__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    width: 70%;
+    padding: 50px;
+    margin: 0 auto; }
+  .c-about__lookup {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    z-index: 9;
+    height: 600px;
+    width: 500px;
+    background: white;
+    border: 1px solid #363434;
+    border-radius: 10px; }
+  .c-about__description {
+    background: url("../img/welcome9.jpeg") center;
+    background-size: cover;
+    display: inline-block;
+    height: 600px;
+    width: 800px;
+    position: absolute;
+    left: 10%;
+    border-radius: 10px; }
+  .c-about__us-title {
+    color: #a8520b;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    padding: 10px 15px 10px 7px; }
+  .c-about__us-text {
+    color: #a8520b;
+    line-height: 1.7;
+    font-family: "Comfortaa", cursive;
+    font-size: 16px;
+    padding: 20px 20px 8px 20px;
+    opacity: 0.8; }
+  .c-about__us-image-container {
+    margin: 0 auto;
+    width: 300px;
+    padding-top: 20px; }
+  .c-about__us-image {
+    height: 200px;
+    width: 100%;
+    border-radius: 15px; }
 
 .c-footer {
   width: 100%;
@@ -238,4 +288,5 @@ html, body {
     font-size: 13px; }
   .c-footer__contact-number {
     font-size: 11px;
-    margin: 6px 0; }
+    margin: 6px 0;
+    padding-left: 5px; }

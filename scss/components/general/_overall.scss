@@ -1,5 +1,15 @@
-$primary-font: 'Lobster', cursive;
+$primary-font: 'Dancing Script', cursive;
 $sec-font: 'Comfortaa', cursive;
+
+@mixin mq($smallerValue,$biggerValue) {
+    @media (min-width: #{$smallerValue}) and (max-width: $biggerValue) {
+      @content;
+    }
+  } 
+  
+  body {
+      background-color:whitesmoke;
+    }
 
 
 @keyframes opening {
